@@ -1,0 +1,9 @@
+	function WAIT(MS){
+		var START = new Date().getTime();
+		var END = START;
+		while(END < START + MS){END = new Date().getTime();}
+	}
+  
+  alert("Start");
+  WAIT(5000);
+  alert("End");
