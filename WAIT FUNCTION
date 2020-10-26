@@ -7,3 +7,4 @@ function WAIT(MS){
 alert("Start");
 WAIT(5000);
 alert("End");
+
